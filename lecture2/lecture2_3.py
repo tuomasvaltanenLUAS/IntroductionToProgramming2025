@@ -29,3 +29,8 @@ total = (salary + savings) * increase
 # PHASE 3 - print out the result for the user
 # USE F-STRING TO COMBINE TEXT AND NUMBERS EASILY
 print(f"Total money: {total} €")
+
+# regarding code comments:
+# in C-language:
+# comments are // for single line
+# and /* multiline comment here */ for multiline
