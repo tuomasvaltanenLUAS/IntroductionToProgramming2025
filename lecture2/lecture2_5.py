@@ -28,5 +28,7 @@ print(root_value)
 # into code, for example, the diagonal of a cube
 # would be: d = sqrt(3) * a
 side = 14
+
 diagonal = math.sqrt(3) * side
-print(diagonal)
+
+print(f"The diagonal is {diagonal}")
