@@ -26,7 +26,7 @@ print(f"Amount of years in this time span: {years}")
 # final amount of money = start_money * (1 + interest_rate / 100) ^ years
 total_money = start_money * math.pow(1 + interest_rate / 100, years)
 
-# we still have the starting investement in the total money
+# we still have the starting investment in the total money, let's remove it
 new_money = total_money - start_money
 new_money = round(new_money, 2)
 
