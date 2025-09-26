@@ -5,7 +5,7 @@ city = "Helsinki"
 # our code should give instructions to adult users
 # based on their hometown and its health care services
 
-# UNDERAGE USES should be directed to use their own school's
+# UNDERAGE USERS should be directed to use their own school's
 # health care services INSTEAD
 if age >= 18:
     print("Adult instructions here!")
