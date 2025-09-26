@@ -20,13 +20,3 @@ elif 18 <= hour <= 21:
     print("Good evening!")
 else:
     print("Good night!")
-
-
-
-
-
-
-
-# EXTRA TASK (we'll do this last):
-# if the user doesn't provide the hour (empty input)
-# get the current hour from datetime-module
