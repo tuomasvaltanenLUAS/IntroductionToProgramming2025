@@ -1,0 +1,3 @@
+# lecture 4, 26.9.2025 - More conditional statements,
+# variable scope, Boolean...
+print("Welcome!")
