@@ -17,3 +17,12 @@ if text_length > 30:
     print(shortened)
 else:
     print("Short text...")
+
+
+# count the amount of letters, this case lowercase 'a'
+# NOTE: uppercase and lowercase letters ARE COMPLETELY
+# different letters in programming, because otherwise
+# the code would never know when to print an uppercase
+# or lowercase letter onto the screen
+a_letters = text.count("a")
+print(f"Amount of a-characters: {a_letters}")
