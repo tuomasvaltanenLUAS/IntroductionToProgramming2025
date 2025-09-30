@@ -7,6 +7,12 @@
 try:
     number = input("Give a number:\n")
     number = int(number)
-    print(f"Your number: {number}")
+
+    # note: this will crash, if user inputs 0 (can't divide by zero)
+    result = 100 / number
+    print(f"Result: {result}")
+
 except ValueError:
     print("You wrote text, only numbers supported. Run app again!")
+except ZeroDivisionError:
+    print("Can't divide by zero, run app again!")
