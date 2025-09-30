@@ -18,6 +18,8 @@ if text_length > 30:
 else:
     print("Short text...")
 
+# a common if-statement would be to test if user's password
+# is at least 15 characters long etc.
 
 # count the amount of letters, this case lowercase 'a'
 # NOTE: uppercase and lowercase letters ARE COMPLETELY
