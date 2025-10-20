@@ -1,6 +1,8 @@
 # variable that controls if the app should be still running
 running = True
 
+# try this also in Python Tutor!
+
 # in this situation we can't know the exact amount
 # of cycles, because we never know how many times the
 # user wants to use this application
