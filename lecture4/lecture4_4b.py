@@ -1,12 +1,10 @@
 # TASK 1: Create an application that greets the users
 # based on given hour of the current time. Convert the given hour into
 # integer format. Use the following logic while greeting the user:
-
 # If hour is 05 - 11: respond "Good morning"
 # If hour is 12 - 17: respond "Good afternoon"
 # If hour is 18 - 21: respond "Good evening"
 # If hour is 22 - 04: respond "Good night"
-
 # EXTRA TASK (we'll do this last):
 # if the user doesn't provide the hour (empty input)
 # get the current hour from datetime-module
@@ -37,5 +35,3 @@ elif 18 <= hour <= 21:
     print("Good evening!")
 else:
     print("Good night!")
-
-
