@@ -10,6 +10,7 @@ end = 2025
 # you can also define start and end of the range
 # often used with year ranges, but otherwise
 # surprisingly rarely used
+
 # you can also use a third parameter
 # that allows you to skip numbers in the for-loop
 # in this case: print only every other number

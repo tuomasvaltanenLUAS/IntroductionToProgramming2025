@@ -8,7 +8,7 @@ print("Today's sales report:\n")
 # we could also have even more complex stuff, like
 # e.g. department => orders => products
 
-# first, let's loop the orders
+# first, let's loop the orders (main loop)
 for order in range(3):
     print(f"Start processing order no. {order + 1}")
 

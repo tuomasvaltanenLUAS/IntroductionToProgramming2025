@@ -4,6 +4,8 @@ text = ""
 
 # the idea is to build the text-variable
 # from separate pieces within the loop
+# try this also in Python Tutor to see how the variable
+# is built by the for-loop!
 for year in range(2018, 2025):
     text = text + str(year) + "-"
 

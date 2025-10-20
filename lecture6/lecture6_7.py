@@ -6,7 +6,7 @@ running = True
 # in this situation we can't know the exact amount
 # of cycles, because we never know how many times the
 # user wants to use this application
-# this is why while-loop is more natural (compared to for-loop)
+# this is why while-loop is more natural here (compared to for-loop)
 while running:
     print("Run app! Ask stuff from user, calculate something etc...")
     print()

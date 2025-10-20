@@ -9,15 +9,17 @@ yearly_money = 2000
 total = start_money
 
 # use Python to calculate interest 10 years in a row
+# notice how we don't need any fancy math formula here!
 for year in range(10):
     total = total + yearly_money
     total = total * interest
 
-# calculate how much winnings we had
+# calculate how much profit we had
+# round values
 new_money = total - start_money - 10 * yearly_money
 new_money = round(new_money, 2)
-
 total = round(total, 2)
 
+# print results
 print(f"Total money: {total} €")
 print(f"With given parameters, we earned this much money: {new_money} €")

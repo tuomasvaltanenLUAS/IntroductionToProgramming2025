@@ -1,3 +1,6 @@
+# the loop in lecture6_1a.py produces
+# the same result as here
+# loops are used to automate code!
 print(f"Cycle: 0")
 print(f"Cycle: 1")
 print(f"Cycle: 2")

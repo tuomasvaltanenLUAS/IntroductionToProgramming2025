@@ -1,7 +1,7 @@
 print("Start!")
 
 # for loop 10 cycles
-# try also in Python Tutor
+# try also in Python Tutor for clarity
 for x in range(10):
     if x % 2 == 0:
         print(f"Cycle: {x} ==> (even)")

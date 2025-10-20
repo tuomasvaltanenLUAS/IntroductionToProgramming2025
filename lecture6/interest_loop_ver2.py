@@ -27,7 +27,7 @@ for year in range(1, 31):
         print(f"We met our goal in the year: {year}")
         break
 
-
+# if we didn't reach our goal, inform user
 if current_profit < target_profit:
     print("This goal cannot be achieved within this time frame and investments.")
 
