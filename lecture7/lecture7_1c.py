@@ -2,6 +2,7 @@
 products = ["Washing machine", "Coffee maker", "Freezer", "Fridge", "Toothbrush", "Microwave"]
 
 # ask the index from the user
+# NOTE: always use int() for index!
 choice = input("Which product would you like to see?\n")
 choice = int(choice)
 

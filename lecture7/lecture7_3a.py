@@ -1,11 +1,10 @@
 # create a list of products
-products = ["Washing machine", "Coffee maker", "Freezer", "Fridge", "Toothbrush", "Microwave"]
+products = ["Washing machine", "Coffee maker", "Freezer",
+            "Fridge", "Toothbrush", "Microwave"]
 
-# always get the amount of elements in the list
-# BEFORE THE LOOP
-# because most programming language will otherwise
-# re-calculate the amount of elements
-# on EACH CYCLE
+# always get the amount of elements in the list BEFORE THE LOOP
+# because most programming languages will otherwise
+# re-calculate the amount of elements on EACH CYCLE, which is not needed
 amount = len(products)
 
 # if you have 6 products

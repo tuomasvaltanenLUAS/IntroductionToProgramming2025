@@ -7,8 +7,7 @@ products = ["Washing machine", "Coffee maker", "Freezer", "Fridge",
 text = ""
 
 # loop through your products
-# first cycle => first product
-# last cycle => last product
+# you could use .join() -function too (we learn this later)
 for single_product in products:
     text = text + single_product + ", "
 
