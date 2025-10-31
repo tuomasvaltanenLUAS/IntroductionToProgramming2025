@@ -16,7 +16,6 @@ draw = ImageDraw.Draw(img)
 # see: https://www.plus2net.com/python/images/pil-text-anchor.jpg
 draw.text((10, 10), "Hello world!", fill=(255, 255, 0))
 
-
 # in ellipse on similar shapes, we have two sets of coordinates
 # e.g. here 100, 100 and 200, 200
 # xy = 100, 100 is starting point
