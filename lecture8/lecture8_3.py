@@ -1,3 +1,4 @@
+# install Pillow instead of PIL
 from PIL import Image, ImageDraw
 
 # create a mew image
