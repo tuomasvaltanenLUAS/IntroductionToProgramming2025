@@ -1,5 +1,7 @@
 # example 1
 
+# install via terminal:
+# pip install var_dump
 import var_dump as vd
 
 # create first hotel
