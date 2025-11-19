@@ -27,3 +27,22 @@ data = json.loads(raw_data)
 # all set, loop through the events
 for event in data:
     print(event['name'])
+
+    # get the address info into separate variables
+    street_address = event['address']['street_address']
+    postal_code = event['address']['postal_code']
+
+    # finally print the address info for the user
+    print(f"{postal_code} {street_address}")
+
+    # join the categories into a text and print
+    categories = ", ".join(event['categories'])
+
+    # you should notice that one of events doesn't any categories
+    # we have to catch that situation
+    if len(event['categories']) > 0:
+        print(f"CATEGORIES: {categories}")
+    else:
+        print("-- NO CATEGORIES --")
+
+    print()
