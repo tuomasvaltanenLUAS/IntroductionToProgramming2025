@@ -4,7 +4,6 @@ products = [
     {"name": "Dishwasher", "price": 299},
     {"name": "Freezer", "price": 199},
     {"name": "Toothbrush", "price": 7},
-
 ]
 
 # TRY THIS IN PYTHON TUTOR
