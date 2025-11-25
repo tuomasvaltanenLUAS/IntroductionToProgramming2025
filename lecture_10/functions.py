@@ -14,3 +14,18 @@ def show_text():
     print("---------------------------")
     print("Please follow the instructions.")
     print()
+
+
+# another function: combine_text
+# three parameters: first name, surname, age
+# prints all information based on the parameters
+def combine_text(first, last, age):
+    print(f"Welcome: {first} {last}")
+    print(f"You are {age} years old.")
+
+
+# define a function that returns data
+# => remember to save the result into a variable
+def get_year():
+    result = 2025
+    return result

@@ -4,4 +4,7 @@ from functions import *
 
 print("START!")
 show_text()
-print("END!")
+print()
+
+# call another function we made
+combine_text("John", "Doe", 31)
