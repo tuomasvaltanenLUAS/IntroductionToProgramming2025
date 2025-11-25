@@ -3,6 +3,7 @@
 from functions import *
 
 print("START!")
+# call our function from functions.py
 show_text()
 print()
 
