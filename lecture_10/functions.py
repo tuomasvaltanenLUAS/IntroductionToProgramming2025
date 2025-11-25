@@ -69,3 +69,20 @@ def check_palindrome(text):
     else:
         return False
 
+
+# define a function that checks if the given
+# order code follows the needed format, which is:
+# exactly 10 characters longs, first letter is T
+# this is a so-called validation function
+def check_order(code):
+    result = True
+
+    # condition 1: length has to be exactly 10
+    if len(code) != 10:
+        result = False
+
+    # condition 2: first letter has to be T
+    if code[0] != "T":
+        result = False
+
+    return result
