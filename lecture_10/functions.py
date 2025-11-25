@@ -40,3 +40,32 @@ def get_even_number_text(number):
         return "Even"
     else:
         return "Odd"
+
+
+# define a function that calculates how many days
+# are in given hours and returns the result
+def hours_to_days(hours):
+    result = hours // 24
+    return result
+
+
+# define a function that reverses a string
+# this is a handy way to hide the weird
+# Python way which reverses the string
+def reverse_string(text):
+    return text[::-1]
+
+
+# define a function that checks if the given
+# text is a palindrome or not
+# (= text is identical also when reversed)
+def check_palindrome(text):
+    reversed_text = reverse_string(text)
+
+    # check if the original text and reversed text match
+    # return a Boolean
+    if text == reversed_text:
+        return True
+    else:
+        return False
+
