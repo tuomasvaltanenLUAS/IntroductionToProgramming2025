@@ -10,4 +10,4 @@ years = 5
 total_cost = get_energy_costs(years, month_consumption, price_kwh, month_fee)
 
 # print end result
-print(f"Arvio kustannuksista {years}v ajalta: {total_cost}€")
+print(f"Estimated costs from {years} years time: {total_cost}€")

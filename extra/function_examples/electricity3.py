@@ -9,6 +9,6 @@ total_cost_2 = get_energy_costs(10, 220, 11.87, 2.99)
 total_cost_3 = get_energy_costs(15, 220, 11.87, 2.99)
 
 # print results
-print(f"Arvio kustannuksista 5v ajalta: {total_cost_1}€")
-print(f"Arvio kustannuksista 10v ajalta: {total_cost_2}€")
-print(f"Arvio kustannuksista 15v ajalta: {total_cost_3}€")
+print(f"Estimated costs from 5 years time: {total_cost_1}€")
+print(f"Estimated costs from 10 years time: {total_cost_2}€")
+print(f"Estimated costs from 15 years time: {total_cost_3}€")

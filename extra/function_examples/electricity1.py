@@ -18,4 +18,4 @@ for y in range(5):
 
 # print end result
 total_cost = round(total_cost, 2)
-print(f"Arvio kustannuksista {years}v ajalta: {total_cost}€")
+print(f"Estimated costs from {years} years time: {total_cost}€")

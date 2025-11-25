@@ -7,6 +7,6 @@ def factorial(number):
         return total
 
 
-print()
+
 print(factorial(5))
 print()
