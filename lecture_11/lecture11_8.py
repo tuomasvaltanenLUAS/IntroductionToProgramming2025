@@ -1,17 +1,17 @@
 import json
 
 # open our text file (create connection) in READ mode
-file_handle = open("cities.json", "r")
-
 # get raw JSON data (just text) from file
+file_handle = open("cities.json", "r")
 content = file_handle.read()
+file_handle.close()
 
 # convert the raw JSON => Python data format
 # after this you can use the city-variable
 # as any other normal dictionary
-cities = json.loads(content)
+countries = json.loads(content)
 
-for city in cities:
-    print(f"{city['name']} ({city['capital']})")
-    print(f"Population: {city['population']}")
+for country in countries:
+    print(f"{country['name']} ({country['capital']})")
+    print(f"Population: {country['population']}")
     print()

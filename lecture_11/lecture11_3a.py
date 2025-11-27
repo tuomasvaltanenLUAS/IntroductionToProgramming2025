@@ -2,7 +2,7 @@
 file_handle = open("weekdays.txt", "r")
 
 # split the raw content of the file
-# into a normal Python list of rows (lines)
+# into a normal Python list of texts (lines)
 content = file_handle.read()
 lines = content.split("\n")
 

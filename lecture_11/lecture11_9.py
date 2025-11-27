@@ -5,9 +5,8 @@ import json
 # => list of dictionaries
 
 # open our text file (create connection) in READ mode
-file_handle = open("american_cities.json", "r")
-
 # get raw JSON data (just text) from file
+file_handle = open("american_cities.json", "r")
 content = file_handle.read()
 file_handle.close()
 
@@ -25,6 +24,8 @@ for city in cities:
 # from the user (input) and create a new dictionary
 # from scratch
 
+# gather three variables from user
+# population as integer
 new_city_name = input("New city, name:\n")
 new_city_population = int(input("New city, population:\n"))
 new_city_state = input("New city, state:\n")
@@ -36,10 +37,15 @@ new_city = {
     "state": new_city_state
 }
 
+# after we have a new dictionary => add the dictionary
+# into the list of cities
 cities.append(new_city)
 
+# PART 3: save the new version of the cities list
+# into the JSON file (override)
 json_data = json.dumps(cities, indent=2)
 
+# save the new version back into the file
 file_handle = open("american_cities.json", "w")
 file_handle.write(json_data)
 file_handle.close()
