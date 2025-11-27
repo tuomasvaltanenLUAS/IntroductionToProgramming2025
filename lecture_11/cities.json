@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Finland",
+    "population": 5556146,
+    "capital": "Helsinki"
+  },
+  {
+    "name": "Sweden",
+    "population": 10402070,
+    "capital": "Stockholm"
+  },
+  {
+    "name": "France",
+    "population": 67413000,
+    "capital": "Paris"
+  },
+    {
+    "name": "Poland",
+    "population": 35000000,
+    "capital": "Warsaw"
+  }
+]

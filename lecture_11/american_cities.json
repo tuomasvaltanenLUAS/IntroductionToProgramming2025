@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Los Angeles",
+    "population": 3898747,
+    "state": "California"
+  },
+  {
+    "name": "Miami",
+    "population": 6166488,
+    "state": "Florida"
+  },
+  {
+    "name": "Denver",
+    "population": 715522,
+    "state": "Colorado"
+  },
+  {
+    "name": "New York City",
+    "population": 8804190,
+    "state": "New York"
+  },
+  {
+    "name": "Salt Lake City",
+    "population": 199723,
+    "state": "Utah"
+  }
+]
