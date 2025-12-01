@@ -53,11 +53,11 @@ for index, row in data_table.iterrows():
     break
 
 print()
-print("Difference to current GDP comparing to 2023")
+print("Difference to current GDP comparing to 2025")
 print(gdp_2025)
-print("Difference to current GDP comparing to 2022")
+print("Difference to current GDP comparing to 2024")
 print(gdp_2024)
-print("Difference to current GDP comparing to 2021")
+print("Difference to current GDP comparing to 2023")
 print(gdp_2023)
 
 # get highest and lowest gdp value for later use
